@@ -1,0 +1,19 @@
+
+sf:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: OKA53590
+
+      # User/password auth
+      user: AZAD
+      password: Images@getty20
+
+      role: SYSADMIN
+      database: ANALYTICS
+      warehouse: TRANSFORMER
+      schema: dbt_aso
+      threads: 1
+      client_session_keep_alive: False
+
